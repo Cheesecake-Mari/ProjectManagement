@@ -25,11 +25,14 @@
                 unset ($_SESSION['login']);
             }
 
-            if(isset($_SESSION['notloggedin']))
+            if(isset($_SESSION['nologin']))
             {
-                echo $_SESSION['notloggedin'];
-                unset ($_SESSION['notloggedin']);
+                echo $_SESSION['nologin'];
+                unset ($_SESSION['nologin']);
             }
+            
+
+
 
 
             

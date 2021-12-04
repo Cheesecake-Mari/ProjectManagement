@@ -1,4 +1,4 @@
-<?php  include("consts2.php"); ?>
+<?php  include("consts2.php"); include("checklog2.php");?>
 <!DOCTYPE html>
 <html>
     <head>
@@ -7,6 +7,10 @@
     </head>
 
     <body>
+    <div class="divbutton">
+    <a href="menu2.php" class="myButton" style="background-color:#6ef5a6" >MENU</a>
+    <a href="logout2.php" class="myButton" style="background-color:#6ef5a6" >LOGOUT</a><br><br>
+        </div>
         <h1>SeaShells</h1>
         <h2>Welcome!</h2>
         <br>
@@ -30,7 +34,7 @@
         <label for="lname">Last Name: </label><input type="text" id="lastname" name="lastname"><br><br>
         <label for="no">Phone number: </label><input type="text" id="phone" name="phone"><br><br>
         <tr>
-                <td>Project Name:</td>
+                <td  ><label for="pname">Project Name: </label></td>
                 <td>
                     <select name="project_name">
  

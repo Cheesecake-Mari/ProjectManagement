@@ -1,4 +1,5 @@
-<?php  include("consts2.php"); ?>
+<?php  include("consts2.php"); 
+include("checklog2.php");?>
 <!DOCTYPE html>
 <html>
     <head>
@@ -6,6 +7,10 @@
         <title>SeaShells Project Manager</title>
     </head>
     <body>
+        <div class="divbutton">
+    <a href="menu2.php" class="myButton" style="background-color:#6ef5a6" >MENU</a>
+    <a href="logout2.php" class="myButton" style="background-color:#6ef5a6" >LOGOUT</a><br><br>
+        </div>
         <h1>SeaShells</h1>
         <h2>Add Project</h2>
         <br>

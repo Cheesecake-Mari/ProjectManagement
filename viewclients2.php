@@ -1,4 +1,4 @@
-<?php  include("consts2.php"); ?>
+<?php  include("consts2.php"); include("checklog2.php"); ?>
 <!DOCTYPE html>
 <html>
     <head>
@@ -7,6 +7,10 @@
     </head>
 
     <body>
+    <div class="divbutton">
+    <a href="menu2.php" class="myButton" style="background-color:#6ef5a6" >MENU</a>
+    <a href="logout2.php" class="myButton" style="background-color:#6ef5a6" >LOGOUT</a><br><br>
+        </div>
         <h1>SeaShells</h1>
         <h2>Managing your projects with ease</h2>
         <br>
@@ -75,8 +79,8 @@
                         <td><?php echo $project_name ?></td>
                         <br>
                         <td>    
-                        <a href="<?php echo HOMEURL;?>updateclients2.php?id=<?php echo $id ?>" class ="btn-secondary">  Update  </a><br>
-                        <a href="<?php echo HOMEURL;?>deleteclients2.php?id=<?php echo $id ?>" class ="btn-ter"> Delete  </a>
+                        <a class="myButton2" href="<?php echo HOMEURL;?>updateclients2.php?id=<?php echo $id ?>" class ="btn-secondary">  Update  </a><br>
+                        <a class="myButton2" href="<?php echo HOMEURL;?>deleteclients2.php?id=<?php echo $id ?>" class ="btn-ter"> Delete  </a>
                         </td>
                         <br><br>
                     </tr>

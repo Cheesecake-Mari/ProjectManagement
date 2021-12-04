@@ -1,8 +1,12 @@
-<?php include('consts2.php');?>
+<?php include('consts2.php'); include("checklog2.php");?>
 
 <link rel="stylesheet" href="styles.css">
 <div class="main-content">
     <div class="wrapper">
+    <div class="divbutton">
+    <a href="menu2.php" class="myButton" style="background-color:#6ef5a6" >MENU</a>
+    <a href="logout2.php" class="myButton" style="background-color:#6ef5a6" >LOGOUT</a><br><br>
+        </div>
     <h1>SeaShells</h1>
         <h2>Managing your projects with ease</h2>
         <br>

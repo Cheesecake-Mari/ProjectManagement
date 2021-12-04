@@ -1,4 +1,4 @@
-<?php  include("consts2.php"); ?>
+<?php  include("consts2.php"); include("checklog2.php");?>
     <!DOCTYPE html>
 <html>
     <head>
@@ -7,6 +7,9 @@
     </head>
 
     <body>
+    <div class="divbutton">
+    <a href="logout2.php" class="myButton" style="background-color:#6ef5a6" >LOGOUT</a><br><br>
+        </div>
         <h2 style="color: azure;">Welcome</h2>
         <br>
         <img src="clip.png" width="100" 
